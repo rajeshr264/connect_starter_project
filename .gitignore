@@ -1,0 +1,5 @@
+## Local Bolt files
+.resource_types/
+.modules/
+.rerun.json
+bolt-debug.log

@@ -1,0 +1,10 @@
+---
+name: starter
+tasks:
+  - package
+  - service
+plans:
+  - canary
+  - puppet_connect::test_input_data
+  - starter::demo
+modules: []
