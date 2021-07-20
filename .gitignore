@@ -3,3 +3,4 @@
 .modules/
 .rerun.json
 bolt-debug.log
+input_data.yaml
