@@ -2,10 +2,10 @@
 groups:
 - name: linux
   targets:
-    - rajcnct29nix0.classroom.puppet.com
-    - rajcnct29nix1.classroom.puppet.com
-    - rajcnct29nix2.classroom.puppet.com
-    - rajcnct29nix3.classroom.puppet.com
+    - rajrcnct1nix0.classroom.puppet.com
+    - rajrcnct1nix1.classroom.puppet.com
+    - rajrcnct1nix2.classroom.puppet.com
+    - rajrcnct1nix3.classroom.puppet.com
   config:
     transport: ssh
     ssh:
@@ -19,10 +19,10 @@ groups:
          key: ssh_target_private_key
 - name: windows
   targets:
-    - rajcnct29win0.classroom.puppet.com
-    - rajcnct29win1.classroom.puppet.com
-    - rajcnct29win2.classroom.puppet.com
-    - rajcnct29win3.classroom.puppet.com
+    - rajrcnct1win0.classroom.puppet.com
+    - rajrcnct1win1.classroom.puppet.com
+    - rajrcnct1win2.classroom.puppet.com
+    - rajrcnct1win3.classroom.puppet.com
   config:
     transport: winrm
     winrm:
